@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+}
+#cabecalho{
+    background-color: #9baad2;
+    background: linear-gradient(rgba(155,170,210,1) 0%, rgba(155,170,210,1) 50%, rgba(255,255,255,1) 50%);
+    width:100%;
+    height: 30%;
+    max-width: 100%;
+  
+}
+
+.logo{
+    margin-left:0;
+}
+
+#menu{
+    display: flex;
+    margin: 0px; 
+    position: relative; 
+    left: -35%;  
+ 
+}
+    
+ul{
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+}
+li{
+    margin: 0px 10px;
+}
+    
+#menu ul li {
+    position: relative;
+    }
+
+#menu li{
+    position:relative;
+}
+#menu li a{
+    background-color: white;
+    color:#9BAAD2; 
+    text-decoration:none; 
+    padding:10px 20px; 
+    border-radius: 50px;
+    display:block;
+    font-size: 17px;
+}
+#menu li a:hover{
+    background-color:#9BAAD2;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 rgb(133, 132, 132);
+    -webkit-box-shadow:0 3px 10px 0 rgb(133, 132, 132);
+    text-shadow:0px 0px 5px rgb(133, 132, 132);
+    border-radius: 50px;
+    
+}
+
+#menu li  ul{
+    position:absolute;
+    top:30px;
+    left:0;
+    display:none;
+}
+
+#menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+#menu li ul li{
+    background-color: white;
+    display:block;
+    width:150%;
+    border-radius: 50%;
+    }
+
+.caixa1{
+    background-color: #9baad2;
+    width: 70%;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-left: 10%;
+    border-radius: 60px;
+    border: 50%;
+    max-width: 100%;
+}
+
+.especialidade1 p{
+    color:rgb(31, 11, 102);
+    margin-left: -127%;
+    font-size: 22px;
+}
+.no{
+    background: white;
+    width: 39%;
+    height: 30%;
+    margin-top: 6%;
+    margin-left: -5%;
+    display: flex;
+    border-radius: 15px;
+    
+}
+.no p{
+    color: rgb(11, 13, 100);
+    margin-left: 87px;
+    margin-top:4%;
+    font-size: 20px;
+    
+}
+ 
+.ellipse{
+    display: flex;
+    margin-left:-4%;
+    display: flex;
+    z-index: 1;
+    
+}
+.estrelas{
+    margin-top: 50%;
+    margin-left: -155%;
+    
+}
+h1{
+    text-align: center;
+    color: #9baad2;
+}
+.ultimaConsulta{
+    background-color: white;
+    width: 30%;
+    height: 98px;
+    margin-top: -16%;
+    margin-left: 62%;
+    max-width: 100%;
+    border-radius: 15px;
+
+}
+
+.ultimaConsulta p{
+    text-align: center;
+    color: #9baad2;
+    font-weight: 700;
+    margin-top: 5%;
+}
+.nave1{
+    flex-direction: row;
+   
+}
+
+.caixa2{
+    background-color: #9baad2;
+    margin-top: 10%;
+    width: 70%;
+    height: 160px;
+    margin-left: 10%;
+    box-sizing: border-box;
+    max-width: 100%;
+    border-radius: 60px;        
+}
+
+.caixa2 p{
+    text-align: center;
+    font-size: 22px;
+    margin-top: -20%;
+    margin-left: -25%;
+    box-sizing: border-box;
+
+}
+.caixa2 .nome2{
+    background-color: white;
+    width: 44%;
+    height: 30%;
+    margin-left: 10%;
+    box-sizing: border-box;
+    margin-top: 8%;
+    border-radius: 10px;
+}
+.dr  {    
+    text-align: center;
+    margin-left: 19%;
+    box-sizing: border-box;
+    color:rgb(11, 13, 100);
+    
+    
+}
+
+.elipse2{
+    margin-left:-5%;
+}
+
+.ultimaConsulta2{
+    background-color: white;
+    width:67%;
+    height: 86px;
+    margin-top: -25%;
+    margin-left: 120%;
+    max-width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ultimaConsulta2 p{
+    color:#9baad2;
+    margin-top: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 5%;
+    max-width: 100%; 
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+
+}
+
+.nave2{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 55%;
+
+    margin-top: -5%;
+}
+
+.rodape {
+    background-color: #9baad2;
+    height: 50%;
+    width: 100%;  
+    display: inline-flex;
+    margin-top: 15%;
+    justify-content: space-around;
+    padding: 60px 0px;
+
+}
+
+.rodape p{
+    color: white;
+    text-align: left;
+    font-family:sans-serif;
+
+}
+.rodape h6{
+    color:#494384;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30%;
+    
+}
+.rodape a {
+    text-decoration: none;
+} 

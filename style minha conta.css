@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+}
+
+@media (min-width:481px){
+#cabecalho{
+    background-color:#9baad2 ;
+    background:linear-gradient(rgba(155,170,210,1) 0%, rgba(155,170,210,1) 50%, rgba(255,255,255,1) 50%);
+    width:100%;
+    width: 100%;
+    height: 85%;
+    max-width: 100%;
+}}
+
+    
+#cabecalho{
+    background-color: #9baad2;
+    background: linear-gradient(rgba(155,170,210,1) 0%, rgba(155,170,210,1) 50%, rgba(255,255,255,1) 50%);
+    width:100%;
+    height: 30%;
+    max-width: 100%;
+  
+}
+
+.logo{
+    margin-left:0;
+}
+
+#menu{
+    display: flex;
+    margin: 0px; 
+    position: relative; 
+    left: -35%;  
+ 
+}
+    
+
+ul{
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+}
+li{
+    margin: 0px 10px;
+}
+
+#menu ul li {
+    position: relative;
+    }
+
+#menu li{
+    position:relative;
+}
+
+#menu li a{
+    background-color: white;
+    color:#9BAAD2; 
+    text-decoration:none; 
+    padding:10px 20px; 
+    border-radius: 50px;
+    display:block;
+    font-size: 17px;
+}
+#menu li a:hover{
+    background-color:#9BAAD2;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 rgb(133, 132, 132);
+    -webkit-box-shadow:0 3px 10px 0 rgb(133, 132, 132);
+    text-shadow:0px 0px 5px rgb(133, 132, 132);
+    border-radius: 50px;
+    
+}
+
+#menu li  ul{
+    position:absolute;
+    top:30px;
+    left:0;
+    display:none;
+}
+
+#menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+#menu li ul li{
+    background-color: white;
+    display:block;
+    width:150%;
+    border-radius: 50%;
+    }
+.minhaConta{
+    text-align: center;
+    color:#9BAAD2; 
+
+}
+
+.ellipse{
+    
+    border: 12px solid #8880fe;
+    border-radius: 50%;
+   
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    color: #37335B;
+    font-size: 25px;
+    font-weight: bold
+  
+
+}
+
+.campos label{
+    display: flex;
+    flex-direction: column;
+
+}
+.campos label input{
+    width: 60%;
+    height: 39px;
+    border-radius: 20px;
+}
+.campos .observacoes input{
+    height: 99%;
+}
+
+#botoes{
+   margin-left: 20%;
+   color: #37335B;
+   border-radius: 30px;
+
+}
+
+
+.rodape {
+    background-color: #9baad2;
+    height: 50%;
+    width: 100%;  
+    display: inline-flex;
+    margin-top: 15%;
+    justify-content: space-around;
+    padding: 60px 0px;
+
+}
+
+.rodape p{
+    color: white;
+    text-align: left;
+    font-family:sans-serif;
+
+}
+.rodape h6{
+    color:#494384;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30%;
+    
+}
+.rodape a {
+    text-decoration: none;
+} 
