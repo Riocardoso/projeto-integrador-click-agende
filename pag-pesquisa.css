@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+}
+
+#header{
+    background-color: #9baad2;
+    background: linear-gradient(rgba(155,170,210,1) 0%, rgba(155,170,210,1) 50%, rgba(255,255,255,1) 50%);
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+
+#menu{
+    display: flex;
+    margin: -20px;
+}
+
+ul{ 
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    margin: 0px 10px;
+}
+
+#menu ul li {
+    position: relative;
+    }
+
+#menu li{
+    position:relative;
+}
+
+#menu li a{
+    background-color: white;
+    color:#9BAAD2; 
+    text-decoration:none; 
+    padding:10px 20px; 
+    border-radius: 50px;
+    display:block;
+    font-size: 17px;
+}
+
+#menu li a:hover{
+    background-color:#9BAAD2;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 rgb(133, 132, 132);
+    -webkit-box-shadow:0 3px 10px 0 rgb(133, 132, 132);
+    text-shadow:0px 0px 5px rgb(133, 132, 132);
+    border-radius: 50px;
+}
+
+#menu li  ul{
+    position:absolute;
+    top:30px;
+    left:0;
+    display:none;
+}
+
+#menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+#menu li ul li{
+    background-color: white;
+    display:block;
+    width:150px;
+    border-radius: 50px;
+    }
+
+    footer {
+    background-color:#9BAAD2;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    padding: 40px;
+    }
+    
+    #rodape{
+        padding: 0px 40px;
+    }
+    
+    .titulo-footer{
+        color: #494384;
+        font-size: 19px;
+    }
+    
+    .submenu-footer li{
+        color: white;
+        list-style:none
+    }
+    
+    .submenu-footer li:hover{
+        background-color:#9BAAD2;
+        color:#fff;
+        -moz-box-shadow:0 3px 10px 0 rgb(133, 132, 132);
+        -webkit-box-shadow:0 3px 10px 0 rgb(133, 132, 132);
+        text-shadow:0px 0px 5px rgb(133, 132, 132);
+    }
+
+
+    @media (max-width: 764px) {
+
+        #header{
+            background: linear-gradient(rgba(155,170,210,1) 0%, rgba(155,170,210,1) 50%, rgba(255,255,255,1) 50%);
+            width: 100%;
+            height: 200px;
+        }
+
+        #menu li ul {
+            position: absolute;
+            top: 100%;
+            left: -100%;
+            display: none;
+    }
+
+    footer{
+        padding: 70px 0px;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+p.titulo {
+    font-size: 3vw;
+    text-align: center;
+    color: #615AA1;
+    position: relative;
+    margin: 50px 0;
+}
+
+.container {
+    background-color: white;
+    width: 100vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.box {
+    background-color: #9BAAD2;
+    border-radius: 70px;
+    width: 80vw;
+    height: 18vw;
+    right: 5%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+}
+
+img.imagemmedico {
+    width: 15vw;
+    height: auto;
+    position: absolute;
+    right: 70vw;
+    z-index: 6;
+}
+
+img.imagemmedico:hover {
+    width: 17vw;
+    height: auto;
+    transition-duration: 1s;
+}
+
+.esquerdabox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 50%;
+    padding: 10px 0;
+}
+
+.especialidade {
+    /* align-self: end; */
+    color: #37335B;
+    font-size: 1.5vw;
+    text-shadow: 1px 1px 5px white;
+    position: relative;
+    /* left: 15%; */
+}
+
+.nomemedico {
+    align-self: flex-start;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    width: 80%;
+    height: 20%;
+    /* text-align: end; */
+    padding-right: 10%;
+    color: #37335B;
+    font-size: 1.8vw;
+    background-color: white;
+    /* border: 3px solid white; */ 
+    border-top-right-radius: 25px ;
+    border-bottom-right-radius: 25px ;
+    margin: 10px 0;
+    /* position: relative; */
+    /* right: 40%; */ 
+}
+
+.nomemedico:hover {
+    transition-duration: 1s;
+    width: 85%;
+    height: 25%;
+    font-size: 2vw;
+}
+
+.avaliacao {
+    font-size: 1.3vw;
+}
+
+.avaliacao:hover {
+    font-size: 1.5vw;
+    transition-duration: 1s;
+}
+
+.estrelas {
+    color: transparent;
+    text-shadow: 
+    0px 0px 0 #37335B,
+    0px 0px 4px white; 
+
+}
+
+.estrelas:hover {
+    color: transparent;
+    text-shadow: 
+    0px 0px 0 #ffd000;
+}
+
+.estrelafim {
+    color: transparent;
+    text-shadow:
+      0px 0px 0px white, 
+      -1px -1px 1px #9BAAD2, 
+      -1px 1px 1px #9BAAD2, 
+      1px 1px 1px #9BAAD2, 
+      1px -1px 1px #9BAAD2;
+}
+
+.direitabox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 45%;
+    height: 100%;
+    width: 55%;
+    
+}
+
+.descricao {
+    position: absolute;
+    display: flex;
+    align-self: flex-start;
+    align-items:center;
+    justify-content: center;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 70px;
+    width:calc(100% - 2vw);
+    height:calc(100% - 4vw);
+    text-align: justify;
+    padding: 3vw;
+    color: #37335B;
+    font-size: 1.1vw;
+    margin: 2vw 2vw 2vw 0;
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 3vw;
+    height: 3vw;
+    position: absolute;
+    bottom: 0.7vw;
+}
+
+.icone:hover {
+    width: 3.5vw;
+    height: 3.5vw;
+    align-self: center;
+    transition-duration: 1s;
+}
