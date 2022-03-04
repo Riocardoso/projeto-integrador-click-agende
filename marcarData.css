@@ -1,0 +1,81 @@
+#formulario-datas{
+    display: flex;
+    justify-content: center;
+    padding: 25px
+    
+}
+
+#datas-disponiveis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: #CBD5EE;
+    width: 754px;
+    height: 626px;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.6);
+    border-radius: 70px;
+}
+
+#datas-disponiveis h2{
+    font-family: Gothic A1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#datas-disponiveis h3{
+    font-family: Gothic A1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#date{
+    background: #FFFFFF;
+    border: 1px solid #37335B;
+    box-sizing: border-box;
+    border-radius: 19.5px;
+    padding: 0px 10px;
+    margin: 25px 0px;
+}
+
+
+
+#date1{
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border: none;
+    width: 135px;
+}
+
+#appt{
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border: none;
+    padding: 0px 10px;
+}
+
+.data-hora{
+    display: flex;
+    margin: 5px;
+}
+
+#agendar{
+    width: 265px;
+    height: 38px;
+    background: #37335B;
+    border-radius: 19.5px;
+    border: none;
+    margin: 25px;
+    color: white;
+}
+
+#agendar:hover{
+    background-color: white;
+    -moz-box-shadow:0 3px 10px 0 rgb(133, 132, 132);
+    -webkit-box-shadow:0 3px 10px 0 rgb(133, 132, 132);
+    text-shadow:0px 0px 5px rgb(133, 132, 132);
+    color: #37335B;
+}
