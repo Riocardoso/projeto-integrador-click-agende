@@ -74,7 +74,7 @@ li{
     border-radius: 50px;
     }
 
-    footer {
+footer {
     background-color:#9BAAD2;
     display: flex;
     width: 100%;
@@ -83,21 +83,21 @@ li{
     padding: 40px;
     }
     
-    #rodape{
+#rodape{
         padding: 0px 40px;
     }
     
-    .titulo-footer{
+.titulo-footer{
         color: #494384;
         font-size: 19px;
     }
     
-    .submenu-footer li{
+.submenu-footer li{
         color: white;
         list-style:none
     }
     
-    .submenu-footer li:hover{
+.submenu-footer li:hover{
         background-color:#9BAAD2;
         color:#fff;
         -moz-box-shadow:0 3px 10px 0 rgb(133, 132, 132);
@@ -106,7 +106,7 @@ li{
     }
 
 
-    @media (max-width: 764px) {
+@media (max-width: 764px) {
 
         #header{
             background: linear-gradient(rgba(155,170,210,1) 0%, rgba(155,170,210,1) 50%, rgba(255,255,255,1) 50%);
@@ -132,13 +132,13 @@ li{
     box-sizing: border-box;
 }
 
-body {
+/* body {
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .container {
     background-color: white;
