@@ -119,12 +119,12 @@ footer {
             top: 100%;
             left: -100%;
             display: none;
-    }
+        }
 
-    footer{
-        padding: 70px 0px;
+        footer{
+            padding: 70px 0px;
+        }
     }
-}
 
 * {
     margin: 0;
@@ -132,29 +132,19 @@ footer {
     box-sizing: border-box;
 }
 
-/* body {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
 
 .container {
     background-color: white;
-    width: 100vw;
-    height: 100vw;
     display: flex;
     flex-direction: column;
     align-content: center;
-    /* position: relative; */
+    margin: 100px 0;
 }
 
 .boxcima {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* position: relative; */
 }
 
 .boxcima1 {
@@ -173,37 +163,38 @@ footer {
 }
 
 img.imagemmedico {
-    width: 20vw;
+    width: 230px;
     height: auto;
     justify-self: flex-start;
+    z-index: 1;
 }
 
 .nomemedico {
-    font-size: 1.8vw;
+    font-size: 22px;
     text-align: center;
     color: #37335B;
     background-color: white;
-    padding: 0.3vw 4vw;
+    padding: 5px 30px;
     border-radius: 50px;
     box-shadow: -1px 1px 2px gray;
     z-index: 1;
     position: absolute;
-    margin-bottom: -1vw;
+    margin-bottom: -5px;
 }
 
 .especialidade {
     color: #37335B;
-    font-size: 1.5vw;
+    font-size: 18px;
     text-shadow: 1px 1px 5px white;
-    margin: 1vw 2vw;
+    margin: 10px 20px;
 }
 
 .avaliacao {
-    font-size: 1.3vw;
+    font-size: 15px;
 }
 
 .avaliacao:hover {
-    font-size: 1.5vw;
+    font-size: 17px;
     transition-duration: 1s;
 }
 
@@ -212,7 +203,7 @@ img.imagemmedico {
     text-shadow: 
     0px 0px 0 #37335B,
     0px 0px 4px white; 
-    margin: 1vw 0vw 1vw 2vw;
+    margin: 10px 0px 10px 20px;
 
 }
 
@@ -230,7 +221,7 @@ img.imagemmedico {
       -1px 1px 3px #c5cce0, 
       1px 1px 3px #c5cce0,
       1px -1px 3px #c5cce0;
-      margin: 1vw 2vw 1vw 0vw
+      margin: 10px 0px 10px 0px;
 }
 
 .boxbaixo {
@@ -244,23 +235,23 @@ img.imagemmedico {
 .descricao {
     display: flex;
     background-color: white;
-    border: 1.5vw solid #9BAAD2;
+    border: 20px solid #9BAAD2;
     border-radius: 30px;
     width: 80%;
     text-align: justify;
-    padding: 3vw;
+    padding: 30px;
     color: #37335B;
-    font-size: 1.5vw;
+    font-size: 17px;
 }
 
 .icones{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 4.5vw;
-    height: 4.5vw;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    margin-bottom: -1.5vw;
+    margin-bottom: -15px;
 }
 
 .icone:hover {
