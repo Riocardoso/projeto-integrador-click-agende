@@ -1,36 +1,34 @@
 *{
-    margin: 0;
+    margin: 0px;
 }
-#cabecalho{
+
+#header{
     background-color: #9baad2;
     background: linear-gradient(rgba(155,170,210,1) 0%, rgba(155,170,210,1) 50%, rgba(255,255,255,1) 50%);
-    width:100%;
-    height: 30%;
-    max-width: 100%;
-  
+    width: 100%;
+    height: 100px;
 }
 
 .logo{
-    margin-left:0;
+    margin-left: 30px;
 }
+
 
 #menu{
     display: flex;
-    margin: 0px; 
-    position: relative; 
-    left: -35%;  
- 
+    margin: -20px;
 }
-    
-ul{
-    margin: 0%;
+
+ul{ 
+    margin: 0px;
     padding: 0;
     list-style: none;
 }
+
 li{
     margin: 0px 10px;
 }
-    
+
 #menu ul li {
     position: relative;
     }
@@ -38,6 +36,7 @@ li{
 #menu li{
     position:relative;
 }
+
 #menu li a{
     background-color: white;
     color:#9BAAD2; 
@@ -47,6 +46,7 @@ li{
     display:block;
     font-size: 17px;
 }
+
 #menu li a:hover{
     background-color:#9BAAD2;
     color:#fff;
@@ -54,7 +54,6 @@ li{
     -webkit-box-shadow:0 3px 10px 0 rgb(133, 132, 132);
     text-shadow:0px 0px 5px rgb(133, 132, 132);
     border-radius: 50px;
-    
 }
 
 #menu li  ul{
@@ -71,185 +70,266 @@ li{
 #menu li ul li{
     background-color: white;
     display:block;
-    width:150%;
-    border-radius: 50%;
+    width:150px;
+    border-radius: 50px;
     }
 
-.caixa1{
-    background-color: #9baad2;
-    width: 70%;
-    height: 160px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-top: 10px;
-    box-sizing: border-box;
-    margin-left: 10%;
-    border-radius: 60px;
-    border: 50%;
-    max-width: 100%;
-}
-
-.especialidade1 p{
-    color:rgb(31, 11, 102);
-    margin-left: -127%;
-    font-size: 22px;
-}
-.no{
-    background: white;
-    width: 39%;
-    height: 30%;
-    margin-top: 6%;
-    margin-left: -5%;
-    display: flex;
-    border-radius: 15px;
     
-}
-.no p{
-    color: rgb(11, 13, 100);
-    margin-left: 87px;
-    margin-top:4%;
-    font-size: 20px;
-    
-}
+.titulo h1{
+    text-align: center;
+    color: #494384;
  
-.ellipse{
-    display: flex;
-    margin-left:-4%;
-    display: flex;
-    z-index: 1;
-    
 }
-.estrelas{
-    margin-top: 50%;
-    margin-left: -155%;
-    
-}
-h1{
-    text-align: center;
-    color: #9baad2;
-}
-.ultimaConsulta{
+
+
+.container {
     background-color: white;
-    width: 30%;
-    height: 98px;
-    margin-top: -16%;
-    margin-left: 62%;
-    max-width: 100%;
-    border-radius: 15px;
-
-}
-
-.ultimaConsulta p{
-    text-align: center;
-    color: #9baad2;
-    font-weight: 700;
-    margin-top: 5%;
-}
-.nave1{
+    width: 100vw;
+    height: 20vw;
+    display: flex;
     flex-direction: row;
-   
+    align-items: flex-start;
 }
 
-.caixa2{
-    background-color: #9baad2;
-    margin-top: 10%;
-    width: 70%;
-    height: 160px;
-    margin-left: 10%;
-    box-sizing: border-box;
-    max-width: 100%;
-    border-radius: 60px;        
-}
-
-.caixa2 p{
-    text-align: center;
-    font-size: 22px;
-    margin-top: -20%;
-    margin-left: -25%;
-    box-sizing: border-box;
-
-}
-.caixa2 .nome2{
-    background-color: white;
-    width: 44%;
-    height: 30%;
-    margin-left: 10%;
-    box-sizing: border-box;
-    margin-top: 8%;
-    border-radius: 10px;
-}
-.dr  {    
-    text-align: center;
-    margin-left: 19%;
-    box-sizing: border-box;
-    color:rgb(11, 13, 100);
-    
-    
-}
-
-.elipse2{
-    margin-left:-5%;
-}
-
-.ultimaConsulta2{
-    background-color: white;
-    width:67%;
-    height: 86px;
-    margin-top: -25%;
-    margin-left: 120%;
-    max-width: 100%;
-    border-radius: 15px;
+.box {
+    background-color: #9BAAD2;
+    border-radius: 70px;
+    width: 80vw;
+    height: 18vw;
+    right: 5%;
+    z-index: 1;
     display: flex;
-    flex-wrap: wrap;
-}
-.ultimaConsulta2 p{
-    color:#9baad2;
-    margin-top: 0%;
-    display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
-    margin-left: 5%;
-    max-width: 100%; 
-    font-size: 18px;
-    font-weight: 700;
-    position: relative;
-
+    position: absolute;
 }
 
-.nave2{
+img.imagemmedico {
+    width: 15vw;
+    height: auto;
+    position: absolute;
+    right: 70vw;
+    z-index: 6;
+}
+
+img.imagemmedico:hover {
+    width: 17vw;
+    height: auto;
+    transition-duration: 1s;
+}
+
+.esquerdabox {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    margin-left: 55%;
-
-    margin-top: -5%;
+    height: 100%;
+    width: 50%;
+    padding: 10px 0;
 }
 
-.rodape {
-    background-color: #9baad2;
-    height: 50%;
-    width: 100%;  
-    display: inline-flex;
-    margin-top: 15%;
-    justify-content: space-around;
-    padding: 60px 0px;
+.especialidade {
+    /* align-self: end; */
+    color: #37335B;
+    font-size: 1.5vw;
+    text-shadow: 1px 1px 5px white;
+    position: relative;
+    /* left: 15%; */
+}
+
+.nomemedico {
+    align-self: flex-start;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    width: 80%;
+    height: 20%;
+    /* text-align: end; */
+    padding-right: 10%;
+    color: #37335B;
+    font-size: 1.8vw;
+    background-color: white;
+    /* border: 3px solid white; */ 
+    border-top-right-radius: 25px ;
+    border-bottom-right-radius: 25px ;
+    margin: 10px 0;
+    /* position: relative; */
+    /* right: 40%; */ 
+}
+
+.nomemedico:hover {
+    transition-duration: 1s;
+    width: 85%;
+    height: 25%;
+    font-size: 2vw;
+}
+
+.avaliacao {
+    font-size: 1.3vw;
+}
+
+.avaliacao:hover {
+    font-size: 1.5vw;
+    transition-duration: 1s;
+}
+
+.estrelas {
+    color: transparent;
+    text-shadow: 
+    0px 0px 0 #37335B,
+    0px 0px 4px white; 
 
 }
 
-.rodape p{
-    color: white;
-    text-align: left;
-    font-family:sans-serif;
-
+.estrelas:hover {
+    color: transparent;
+    text-shadow: 
+    0px 0px 0 #ffd000;
 }
-.rodape h6{
-    color:#494384;
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 30%;
+
+.estrelafim {
+    color: transparent;
+    text-shadow:
+      0px 0px 0px white, 
+      -1px -1px 1px #9BAAD2, 
+      -1px 1px 1px #9BAAD2, 
+      1px 1px 1px #9BAAD2, 
+      1px -1px 1px #9BAAD2;
+}
+
+.direitabox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 45%;
+    height: 100%;
+    width: 55%;
     
 }
-.rodape a {
-    text-decoration: none;
-} 
+
+.descricao {
+    left: 20%;
+    position: absolute;
+    display: flex;
+    align-self: flex-start;
+    align-items:center;
+    justify-content: center;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 70px;
+    width:60%;
+    height:80px;
+    text-align: justify;
+    padding: 3vw;
+    color: #37335B;
+    font-size: 1.1vw;
+    margin: 2vw 2vw 2vw 0;
+}
+
+.descricao .text{
+    color: #37335B;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    bottom: 0.7vw;
+}
+
+.icone:hover {
+    width: 3.5vw;
+    height: 3.5vw;
+    align-self: center;
+    transition-duration: 1s;
+}
+
+footer {
+    background-color:#9BAAD2;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+    padding: 40px;
+    }
+    
+    #rodape{
+        padding: 0px 40px;
+    }
+    
+    .titulo-footer{
+        color: #494384;
+        font-size: 19px;
+    }
+    
+    .submenu-footer li{
+        color: white;
+        list-style:none
+    }
+    
+    .submenu-footer li:hover{
+        background-color:#9BAAD2;
+        color:#fff;
+        -moz-box-shadow:0 3px 10px 0 rgb(133, 132, 132);
+        -webkit-box-shadow:0 3px 10px 0 rgb(133, 132, 132);
+        text-shadow:0px 0px 5px rgb(133, 132, 132);
+    }
+
+
+ 
+
+    /* midia*/
+
+     
+   @media (max-width:764px){
+    
+    
+    .descricao span{
+        color: #37335B;
+        font-size: 5px;
+        font-weight:bold;
+    }
+
+    .titulo h1{
+        text-align: center;
+        color: #494384;
+        margin-top: 15%;
+        
+    }
+    .descricao .text{
+        color: #37335B;
+        font-size: 5px;
+        font-weight:bold;
+    }
+    
+}
+
+
+    @media (min-width:576px){
+    
+        .descricao span{
+            color: #37335B;
+            font-size: 15px;
+            font-weight:bold;
+        }
+        .titulo h1{
+            text-align: center;
+            color: #494384;
+            margin-top: 9%;
+            
+        }
+        .descricao .text{
+            color: #37335B;
+            font-size: 13px;
+            font-weight:bold;
+        }
+        
+    }

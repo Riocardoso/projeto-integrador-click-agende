@@ -10,46 +10,92 @@
     <title>Calendario</title>
 </head>
 <body>
-<header>    
-    <div id="cabecalho" class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
-    <a href="#"><img class="logo" src="./img/LOGO (3).png" alt=""></a>
-    <ul id="menu" class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-     <li><a href="#">Home</a></li>   
-
-     <li><a href="#">Escreva-se</a> 
-        <ul>
-            <li><a href="#">Pasientes</a></li>  
-            <li><a href="#">Proficionais da Saúde</a></li>
-        </ul>
-     </li> 
+    <header>
+        <header>
+            <div id="header" class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+              <a href="#"><img class="logo" src="./img especialistas/LOGO (3).png" alt=""></a>
+            </a>
+                <ul id="menu" class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#">Home</a></li>
+                    <li>
+                        <a href="#">Inscreva-se</a>
+                        <ul>
+                            <li><a href="#">Paciente</a></li>
+                            <li><a href="#">Profissional da saúde</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                        <ul>
+                            <li><a href="#">Minha conta</a></li>
+                            <li><a href="#">Meus Agendamentos</a></li>
+                            <li><a href="#">Meus Especialistas</a></li>
+                            <li><a href="#">Sair</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </ul>
+                <div class="col-md-1 text-end">
+                </div>
+            </div>
+        </header>
+    <div class="titulo">
+        <h1>Calendario de Agendamento</h1>
+    </div>
+                <!-- inicio da pg-->
      
-     <li>
-        <a href="#">Login</a>
-        <ul>
-            <li><a href="#">Minha Conta</a></li>
-            <li><a href="#">meus Agendamentos</a></li>
-            <li><a href="#">Meus Especialistas</a></li>
-            <li><a href="#">Sair</a></li>
-        </ul>  
-
-    </li>
-    </ul>
-</div>
-</header>
-    <h1>Calendario de Agendamento</h1>
-
- <form> 
-    <div class="agendamento" > 
-        <label for="agendamento"> Informes o dia para o agendamento</label>
-        <input class="data" type="date">
-    </div>
     
-    <div class="observacoes">
-        <h3>Abaixo coloque suas observações</h3>
-        <input class="texto" type="text" name="nome">
-        <button class="botao" >Enviar</button>
-    </div>
- </form>
+
+
+<main class="calendario">
+    <section class="mes">
+      <h2> Março </h2>
+    </section>
+
+    <section class="dias">
+        <div class="dias_item">segunda</div>
+        <div class="dias_item">terca</div>
+        <div class="dias_item">quarta</div>
+        <div class="dias_item">quinta</div>
+        <div class="dias_item">sexta</div>
+        <div class="dias_item">sabado</div>
+        <div class="dias_item">domingo</div>
+    </section>
+
+    <section class="diaMes">
+        <div class="diaMes__dia">1</div>
+        <div class="diaMes__dia">2</div>
+        <div class="diaMes__dia">3</div>
+        <div class="diaMes__dia">4</div>
+        <div class="diaMes__dia">5</div>
+        <div class="diaMes__dia">6</div>
+        <div class="diaMes__dia">7</div>
+        <div class="diaMes__dia">8</div>
+        <div class="diaMes__dia">9</div>
+        <div class="diaMes__dia">10</div>
+        <div class="diaMes__dia">11</div>
+        <div class="diaMes__dia">12</div>
+        <div class="diaMes__dia">13</div>
+        <div class="diaMes__dia">14</div>
+        <div class="diaMes__dia">15</div>
+        <div class="diaMes__dia">16</div>
+        <div class="diaMes__dia">17</div>
+        <div class="diaMes__dia">18</div>
+        <div class="diaMes__dia">19</div>
+        <div class="diaMes__dia">20</div>
+        <div class="diaMes__dia">21</div>
+        <div class="diaMes__dia">22</div>
+        <div class="diaMes__dia">23</div>
+        <div class="diaMes__dia">24</div>
+        <div class="diaMes__dia">25</div>
+        <div class="diaMes__dia">26</div>
+        <div class="diaMes__dia">27</div>
+        <div class="diaMes__dia">28</div>
+        <div class="diaMes__dia">29</div>
+        <div class="diaMes__dia">30</div>
+        <div class="diaMes__dia">31</div>
+    </section>
+</main>
 
  <footer>
     <div class="rodape">
@@ -58,46 +104,38 @@
 
 
 
-    <footer>
-        <div class="rodape">
-           <div class="coluna1">
-            <h6>Serviços</h6>
-            <ul>
-                <a href="#"><p>Privacidade e cookies</p></a>
-                <a href="#"><p>Quem Somos</p></a>
-                <a href="#"><p>contato</p></a>
-                <a href="#"><p>termos  Condições</p></a>
-                <a href="#"><p>Imprensa</p></a>
-            </ul>
-           </div>
-
-         <div class="coluna2">
-
-            <h6>Pacientes</h6>
-             <ul>
-                <a href="#"><p>Especialistas</p></a>
-                <a href="#"><p>Clinica e Hospitais</p></a>
-                <a href="#"><p>Pergunte ao Especialista</p></a>
-                <a href="#"><p>Medicamentos</p></a>
-                <a href="#"><p>Perguntas frequentes</p></a>
-             </ul>
-
-         </div>
-         <div class="coluna3">
-            <h6>Especialistas da Saúde</h6>
-             <ul>
-                <a href="#"><p>Central de Ajuda Para Especialistas</p></a>
-                <a href="#"><p>Termos de uso do Perfil Proficional</p></a>
-                <a href="#"><p>Teleconsulta</p></a>
-             </ul> 
-        </div>   
-
-
-    </div> 
-
-
-
-
- </footer>
-</body>
-</html>
+            <footer>
+                <div class="row">
+                  <div id="rodape" class="col">
+                        <ul class="submenu-footer">
+                            <p class="titulo-footer">Serviços</p>
+                            <li>Privacidade e cookies</li>
+                            <li>Quem somos</li>
+                            <li>Contato</li>
+                            <li>Termos e Condições</li>
+                            <li>Emprensa</li>
+                        </ul>
+                  </div>
+                  <div id="rodape" class="col">
+                    <ul class="submenu-footer">
+                        <p class="titulo-footer">Pacientes</p>
+                        <li>Especialistas</li>
+                        <li>Clínicas e Hospitais</li>
+                        <li>Pergunte ao especialista</li>
+                        <li>Medicamentos</li>
+                        <li>Perguntas frequentes</li>
+                    </ul>
+                  </div>
+                  <div id="rodape" class="col">
+                    <ul class="submenu-footer">
+                        <p class="titulo-footer">Especialistas da saúde</p>
+                        <li>Central de Ajuda para Especialistas</li>
+                        <li>Termos de uso do perfil profissional</li>
+                        <li>Teleconsulta</li>
+                    </ul>
+                  </div>
+                </div>
+              </footer>
+        
+        </body>
+        </html>

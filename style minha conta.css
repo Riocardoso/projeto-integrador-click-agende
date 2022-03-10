@@ -1,45 +1,30 @@
 *{
-    margin: 0%;
+    margin: 0px;
 }
 
-@media (min-width:481px){
-#cabecalho{
-    background-color:#9baad2 ;
-    background:linear-gradient(rgba(155,170,210,1) 0%, rgba(155,170,210,1) 50%, rgba(255,255,255,1) 50%);
-    width:100%;
-    width: 100%;
-    height: 85%;
-    max-width: 100%;
-}}
-
-    
-#cabecalho{
+#header{
     background-color: #9baad2;
     background: linear-gradient(rgba(155,170,210,1) 0%, rgba(155,170,210,1) 50%, rgba(255,255,255,1) 50%);
-    width:100%;
-    height: 30%;
-    max-width: 100%;
-  
+    width: 100%;
+    height: 100px;
 }
 
 .logo{
-    margin-left:0;
+    margin-left: 30px;
 }
+
 
 #menu{
     display: flex;
-    margin: 0px; 
-    position: relative; 
-    left: -35%;  
- 
+    margin: -20px;
 }
-    
 
-ul{
-    margin: 0%;
+ul{ 
+    margin: 0px;
     padding: 0;
     list-style: none;
 }
+
 li{
     margin: 0px 10px;
 }
@@ -61,6 +46,7 @@ li{
     display:block;
     font-size: 17px;
 }
+
 #menu li a:hover{
     background-color:#9BAAD2;
     color:#fff;
@@ -68,7 +54,6 @@ li{
     -webkit-box-shadow:0 3px 10px 0 rgb(133, 132, 132);
     text-shadow:0px 0px 5px rgb(133, 132, 132);
     border-radius: 50px;
-    
 }
 
 #menu li  ul{
@@ -85,79 +70,280 @@ li{
 #menu li ul li{
     background-color: white;
     display:block;
-    width:150%;
-    border-radius: 50%;
+    width:150px;
+    border-radius: 50px;
     }
-.minhaConta{
-    text-align: center;
-    color:#9BAAD2; 
 
+
+                /*comeco nova pagina */
+
+.conteiner{
+    margin-bottom: 30px;
+    
 }
 
-.ellipse{
-    
-    border: 12px solid #8880fe;
-    border-radius: 50%;
+
+.elipse{
+    margin-left: 15%;
+    border-width: solid;
+    color: #494384;
+}
+.conteiner h1{
+    margin-left: 10%;
+    color: #494384;
+}
+
+.conteudo{
+    margin-left: 30%;
    
 }
 
-.campos{
-    display: flex;
-    flex-direction: column;
-    margin-left: 30%;
-    color: #37335B;
-    font-size: 25px;
-    font-weight: bold
-  
-
+.conteudo p{
+    font-size: 30px;
+    color: #494384;
+    font-weight:600;
+   
 }
 
-.campos label{
-    display: flex;
-    flex-direction: column;
-
+.conteudo  .email,.nome,.nuber{
+    border-radius: 30px;
+    height: 40px;
+    width: 570px;
+    padding: 5%;
 }
-.campos label input{
-    width: 60%;
-    height: 39px;
-    border-radius: 20px;
-}
-.campos .observacoes input{
-    height: 99%;
-}
-
-#botoes{
-   margin-left: 20%;
-   color: #37335B;
-   border-radius: 30px;
-
-}
-
-
-.rodape {
-    background-color: #9baad2;
-    height: 50%;
-    width: 100%;  
-    display: inline-flex;
-    margin-top: 15%;
-    justify-content: space-around;
-    padding: 60px 0px;
-
-}
-
-.rodape p{
-    color: white;
-    text-align: left;
-    font-family:sans-serif;
-
-}
-.rodape h6{
-    color:#494384;
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 30%;
+.conteudo .observacao{
+    border-radius: 30px;
+    height: 124px;
+    width: 560px;
+    padding: 5%;
     
 }
-.rodape a {
+
+                        /* BOTOES */
+
+
+
+.botoes a{
+ margin-left: 35%;
+ text-decoration: none;
+ color: white;
+}
+
+
+.botoes .ed{
+    background-color: #494384;
+    width: 265px;
+    height: 40px;
+    border-radius: 50px;  
+    margin-top: 5%;
+}
+
+.botoes .sl{
+    background-color: #8781BD;
+    width: 265px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 35%;  
+    margin-top: -5%;
     text-decoration: none;
-} 
+    
+}
+
+
+
+
+
+/*fin nova pagina */
+
+
+
+
+footer {
+    background-color:#9BAAD2;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+    padding: 40px;
+    }
+    
+    #rodape{
+        padding: 0px 40px;
+    }
+    
+    .titulo-footer{
+        color: #494384;
+        font-size: 19px;
+    }
+    
+    .submenu-footer li{
+        color: white;
+        list-style:none
+    }
+    
+    .submenu-footer li:hover{
+        background-color:#9BAAD2;
+        color:#fff;
+        -moz-box-shadow :0 3px 10px 0 rgb(133, 132, 132);
+        -webkit-box-shadow :0 3px 10px 0 rgb(133, 132, 132);
+        text-shadow:0px 0px 5px rgb(133, 132, 132);
+    }
+
+    
+
+
+    @media (max-width: 764px){
+
+        .conteiner .minhaconta{
+            margin-top: 30%;
+        }
+
+        .conteiner{
+            margin-bottom: 30px;
+        }
+        
+        
+        .elipse{
+            margin-left: 15%;
+            border-width: solid;
+            color: #494384;
+        }
+        .conteiner h1{
+            margin-left: 10%;
+            color: #494384;
+        }
+        
+        .conteudo{
+            margin-left: 30%;
+           
+        }
+        
+        .conteudo p{
+            font-size: 30px;
+            color: #494384;
+            font-weight:600;
+           
+        }
+        
+        .conteudo  .email,.nome,.nuber{
+            border-radius: 30px;
+            height: 40px;
+            width: 65%;
+        }
+        .conteudo .observacao{
+            border-radius: 30px;
+            height: 124px;
+            width: 65%;
+        }
+        
+
+      footer{
+        padding: 70px 0px;
+     }
+
+     .botoes {
+        margin-left:30%;
+        color: white; 
+        
+     }
+    
+      .botoes a{
+     margin-left: 25%;
+     
+    
+     }
+    
+    
+        .botoes .ed{
+        background-color: #494384;
+        width: 30%;
+        height: 40px;
+        border-radius: 50px;  
+        margin-top: 5%;
+     }
+    
+      .botoes .sl{
+        background-color: #8781BD;
+        width: 30%;
+        height: 40px;
+        border-radius: 50px;
+        margin-left: 35%;  
+        margin-top: -12%;
+        
+        
+    }
+
+    
+}
+
+
+
+@media (min-width: 576px){
+    .conteiner{
+        margin-bottom: 30px;
+    }
+    
+    
+    .elipse{
+        align-items: center;
+        margin-left: 15%;
+        border-width: solid;
+        color: #494384;
+    }
+    .conteiner h1{
+        margin-left: 10%;
+        color: #494384;
+    }
+    
+    .conteudo{
+        margin-left: 30%;
+       
+    }
+    
+    .conteudo p{
+        font-size: 30px;
+        color: #494384;
+        font-weight:600;
+       
+    }
+    
+    .conteudo  .email,.nome,.nuber{
+        border-radius: 30px;
+        height: 40px;
+        width: 570px;
+    }
+    .conteudo .observacao{
+        border-radius: 30px;
+        height: 124px;
+        width: 560px
+    }
+    
+    .botoes {
+        margin-left:30%;
+        color: white; 
+        
+    }
+    
+    .botoes a{
+     margin-left: 35%;
+    }
+    
+    
+    .botoes .ed{
+        background-color: #494384;
+        width: 265px;
+        height: 40px;
+        border-radius: 50px;  
+        margin-top: 5%;
+    }
+    
+    .botoes .sl{
+        background-color: #8781BD;
+        width: 265px;
+        height: 40px;
+        border-radius: 50px;
+        margin-left: 35%;  
+        margin-top: -5%;
+        
+    }
+}

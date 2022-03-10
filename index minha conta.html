@@ -11,103 +11,102 @@
 </head>
 <body>
     <header>
-        <div id="cabecalho" class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
-            <a href="#"><img class="logo" src="./img/LOGO (3).png" alt=""></a>
-            <ul id="menu" class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-             <li><a href="#">Home</a></li>   
-        
-             <li><a href="#">Escreva-se</a> 
-                <ul>
-                    <li><a href="#">Pasientes</a></li>  
-                    <li><a href="#">Proficionais da Saúde</a></li>
+        <header>
+            <div id="header" class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+              <a href="#"><img class="logo" src="./img especialistas/LOGO (3).png" alt=""></a>
+            </a>
+                <ul id="menu" class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#">Home</a></li>
+                    <li>
+                        <a href="#">Inscreva-se</a>
+                        <ul>
+                            <li><a href="#">Paciente</a></li>
+                            <li><a href="#">Profissional da saúde</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                        <ul>
+                            <li><a href="#">Minha conta</a></li>
+                            <li><a href="#">Meus Agendamentos</a></li>
+                            <li><a href="#">Meus Especialistas</a></li>
+                            <li><a href="#">Sair</a></li>
+                        </ul>
+                    </li>
                 </ul>
-             </li> 
-             
-             <li>
-                <a href="#">Login</a>
-                <ul>
-                    <li><a href="#">Minha Conta</a></li>
-                    <li><a href="#">meus Agendamentos</a></li>
-                    <li><a href="#">Meus Especialistas</a></li>
-                    <li><a href="#">Sair</a></li>
-                </ul>  
-        
-            </li>
-            </ul>
+                </ul>
+                <div class="col-md-1 text-end">
+                </div>
+            </div>
+        </header>
+
+    <!-- pagina nova -->
+<section class="conteiner">  
+        <div class="conteudo">  
+            <h1 class="minhaconta">MINHA CONTA</h1>          
+            <a href="#"><img class="elipse" src="./img minha conta/Ellipse 3.png" alt=""></a>        
+            <p>Nome</p>
+            <input class="nome"  type="text" nome="Nome ">
+            <p>E-mail</p>
+            <input class="email" type="email" nome="email ">
+            <p>Telefone</p>
+            <input class="nuber" type="number" nome="numero">
+            <p>Observações</p>
+            <input class="observacao" type="text" nome="Nome ">
         </div>
-    </header>
-
-    <main class="formulario">
         
-        <div class="minhaConta"  >
-            <h1>Minha conta</h1>
-            <img class="ellipse" src="./img/Ellipse 3.png" alt="">
-        </div>  
-        
-        <form class="campos">
-            <label for="nome">
-                <span>NOME</span>
-                <input type="text" id="nome" name="nome">
-            </label>
+        <section class="botoes" >
 
-            <label for="email">
-                <span>E-mail</span>
-                <input type="email" id="email" name="email">
-            </label>
+            <div class="ed" >
+                <a href="#">Editar</a>
+            </div>
+           <div class="sl" >
+                <a href="#">Salvar</a>
+            </div>
 
-            <label for="telefone">
-                <span>Telefone </span>
-                <input type="number" id="number" name="number">
-            </label>
+        </section>
+            
+            
+</section>
 
-         <div class="obervacoes">   
-            <label for="nome">
-                <span>observações</span>
-                <input type="text" id="nome" name="nome">
-            </label>
-         </div>
 
-         <div id="botoes">   
-            <button>Editar</button>
-            <button>Salvar</button>
-         </div>    
 
-        </form>
-        
-    </main>
+
+    <!--fin da pagina nova -->
+
+ 
     <footer>
-        <div class="rodape">
-           <div class="coluna1">
-            <h6>Serviços</h6>
-            <ul>
-                <a href="#"><p>Privacidade e cookies</p></a>
-                <a href="#"><p>Quem Somos</p></a>
-                <a href="#"><p>contato</p></a>
-                <a href="#"><p>termos  Condições</p></a>
-                <a href="#"><p>Imprensa</p></a>
+        <div class="row">
+          <div id="rodape" class="col">
+                <ul class="submenu-footer">
+                    <p class="titulo-footer">Serviços</p>
+                    <li>Privacidade e cookies</li>
+                    <li>Quem somos</li>
+                    <li>Contato</li>
+                    <li>Termos e Condições</li>
+                    <li>Emprensa</li>
+                </ul>
+          </div>
+          <div id="rodape" class="col">
+            <ul class="submenu-footer">
+                <p class="titulo-footer">Pacientes</p>
+                <li>Especialistas</li>
+                <li>Clínicas e Hospitais</li>
+                <li>Pergunte ao especialista</li>
+                <li>Medicamentos</li>
+                <li>Perguntas frequentes</li>
             </ul>
-           </div>
-
-         <div class="coluna2">
-            <h6>Pacientes</h6>
-             <ul>
-                <a href="#"><p>Especialistas</p></a>
-                <a href="#"><p>Clinica e Hospitais</p></a>
-                <a href="#"><p>Pergunte ao Especialista</p></a>
-                <a href="#"><p>Medicamentos</p></a>
-                <a href="#"><p>Perguntas frequentes</p></a>
-             </ul>
-
-         </div> 
-         
-         <div class="coluna3">
-            <h6>Especialistas da Saúde</h6>
-             <ul>
-                <a href="#"><p>Central de Ajuda Para Especialistas</p></a>
-                <a href="#"><p>Termos de uso do Perfil Proficional</p></a>
-                <a href="#"><p>Teleconsulta</p></a>
-             </ul> 
+          </div>
+          <div id="rodape" class="col">
+            <ul class="submenu-footer">
+                <p class="titulo-footer">Especialistas da saúde</p>
+                <li>Central de Ajuda para Especialistas</li>
+                <li>Termos de uso do perfil profissional</li>
+                <li>Teleconsulta</li>
+            </ul>
+          </div>
         </div>
-    </footer>
+      </footer>
+
 </body>
 </html>
