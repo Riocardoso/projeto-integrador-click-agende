@@ -136,47 +136,45 @@ li{
     text-align: center;
 }
 
-.box button{
+.Enviar:hover{
+    color: #fff;
+    background:#494384;
+    text-decoration: none;
+}
+
+
+.Enviar{
     margin: 15px;
     width: 250px;
     height: 50px;
     left: 538px;
     top: 700px;
-    box-sizing :border-box;
+  
     border-radius: 50px;
-    background-color:#9baad2;
+    color: #fff;
+    background:#9baad2;
     border: #9baad2;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
    
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    color: #FFFFFF;
-
-
-
 }
-
 .pai label{ 
-   
     display: block;
-    margin-right: 44%;
-   
+    margin-right: 44%;   
 }
 .pai input{
-   
     width: 50%;
      color: #9baad2;
-    
-     text-align: center;
-    border-radius: 15px;
-    
-}
-.pai textarea{
-    
-     color: #615AA1;
-     margin-right: 15%;
      text-align: center;
     border-radius: 15px;
 }
+textarea {
+    height: 159px;
+    border-radius: 23px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}  
+
+
 
